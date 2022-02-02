@@ -1,0 +1,174 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
+  .profile-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .careers, .interests {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .job, .interest {
+    flex-basis: 100%;
+  }
+
+  h1 {
+    line-height: 1 !important;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 25px 25px 25px 25px;
+  width: 100%;
+  margin: 25px auto;
+  background-color: rgb(250, 250, 250);
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgba(40, 40, 40, 0.2);
+}
+
+.bio h1 {
+  margin: 12px 40px 10px 30px;
+}
+
+.bio h3, .bio p {
+  margin: 12px 30px 12px 40px;
+}
+
+.social-link {
+  font-size: 40px;
+  margin: 0 20px 0 20px;
+}
+
+body {
+  background-color: #f0eee8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.careers, .interests{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.job, .interest {
+  text-align: center;
+  flex: 1;
+  margin: 0 15px 0 15px;
+}
+
+.job-icon {
+  color: #588157;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.job-icon:hover {
+  font-size: 48px;
+}
+
+.interest-image {
+  height: 100px;
+}
+
+h1 {
+  color: #588157;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 0.8;
+}
+
+h2 {
+  color: #3A5A40;
+  font-weight: 100;
+  font-size: 22px;
+  margin: 0 0 30px 0;
+}
+
+h3 {
+  color: #3A5A40;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+p {
+  color: #3A5A40;
+  font-weight: 300;
+}
+
+.profile-pic {
+  width: 180px;
+  margin-bottom: 15px;
+  display: inline-block;
+  align-self: start;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  font-size: 25px;
+  color: #A3B18A;
+}
+
+a:hover {
+  color: #3A5A40;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile-main {
+  display: flex;
+  flex-direction: row;
+}
